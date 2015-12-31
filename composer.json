@@ -8,9 +8,6 @@
 			"email": "kevinkaske@gmail.com"
 		}
 	],
-	"require": {
-		"kevinkaske/plualize": "dev-master"
-	},
 	"autoload": {
 		"files": [
 			"libs/pluralize.php"
