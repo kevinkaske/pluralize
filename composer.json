@@ -1,0 +1,19 @@
+{
+	"name": "kevinkaske/pluralize",
+	"description": "A simple PHP lib to turn words into their plural form",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Kevin Kaske",
+			"email": "kevinkaske@gmail.com"
+		}
+	],
+	"require": {
+		"kevinkaske/plualize": "dev-master"
+	},
+	"autoload": {
+		"files": [
+			"libs/pluralize.php"
+		]
+	}
+}
