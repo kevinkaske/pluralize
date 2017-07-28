@@ -12,3 +12,23 @@ file with the following contents:
 	}
 }
 ```
+## Usage
+```php
+pluralize(single_string,number_int);
+```
+
+#### Example 1:
+```php
+$balloon_number = 1;
+
+echo 'You have '.$balloon_number.' '.pluralize('balloon',$balloon_number).'!';
+```
+Would output ```You have 1 balloon!```
+
+#### Example 2:
+```php
+$balloon_number = 2;
+
+echo 'You have '.$balloon_number.' '.pluralize('balloon',$balloon_number).'!';
+```
+Would output ```You have 2 balloons!```
